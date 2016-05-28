@@ -59,7 +59,9 @@
                       <p class="lead">
                           <div class="btn-group">
                               <a class="btn btn-default btn-md" href="#">Login</a>
-                              <a class="btn btn-default btn-md" href="#">Signup</a>
+                      <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#myModal">
+                          Sign Up!
+                      </button>
                           </div>
                       </p>
                   </div>
@@ -70,34 +72,6 @@
               <p>HOW IT WORKS</p>
   </div>
 
-  </div>
-  <div class="modal fade" id="textModal">
-      <div class="modal-dialog">
-          <div class="modal-content">
-
-             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">We'll text you the link!</h4> 
-             </div>
-
-             <div class="modal-body">
-                <form class="form">
-                    <div class="form-group">
-                         <label class="sr-only" for="mobilePhone">Mobile Phone</label>
-                         <input type="tel" name="form-control" id="mobilePhone" placeholder="Mobile Phone">
-                    </div>
-                    <div class="form-group">
-                      <select class="form-control">
-                        <option>iOS</option>
-                        <option>Android</option>
-                      </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary" data-dismiss="modal"> Send me link</button>
-                </form>
-             </div>
-
-          </div>
-      </div>
   </div>
 
 
@@ -122,7 +96,9 @@
       <div id="deal" class="row">
           <div class="col-md-12">First Alteration on us!</div>
           <div class="btn-group">
-              <a class="btn btn-default btn-md" href="#">Signup</a>
+              <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                  Sign Up!
+              </button>
           </div>
       </div>
   </div>
@@ -135,14 +111,38 @@
                   <p class="text-muted">Privacy Policy</p>
                   <p class="text-muted">Contact Us!</p>
               </div>
-
-
-
           </div>
-
       </div>
-
   </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Join our Waitlist and Visit our Boutique Partners!</h4>
+              </div>
+              <div class="modal-body">
+                  <p>We are working hard on making our on-boarding process available!</p>
+                  <p>To use REIFY please join our waitlist and visit our <a>Boutique</a> partners!</p>
+              </div>
+              <div class="modal-footer">
+                  <form class="form-inline">
+                      <div class="form-group">
+                          <label for="exampleInputName2">Name</label>
+                          <input type="text" class="form-control" id="exampleInputName2" placeholder="First Name Last Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputEmail2">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="first.last@example.com">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
