@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>REIFY</title>
 
     <!-- Font for Proxima Nova -->
     <link href="https://db.onlinewebfonts.com/c/ac51ad8a36d5bab6da11d454bcd06561?family=Proxima+Nova" rel="stylesheet" type="text/css"/>
@@ -14,7 +14,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-   <!--  <link rel="stylesheet" type="text/css" href="assets/css/index.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,7 +25,7 @@
   </head>
   <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">REIFY</a>
+          <a class="navbar-brand hidden-xs" href="#">REIFY</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,19 +45,90 @@
             <li><a href="#">Partners</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+      <!-- /.container-fluid -->
      </nav>
-     <div class="jumbotron">
-         <h1>REIFY</h1>
-         <p class="lead">make your perfect fit a reality.</p>  
-     </div>
-     <div class="row">
-       <div class="col-sm-4"><h1>This is how it works 1</h1><p>fjdkalf;hdfhdka;fhdk;afhd</p></div>
-       <div class="col-sm-4"><h1>This is how it works 1</h1><p>fjdkalf;hdfhdka;fhdk;afhd</p></div>
-       <div class="col-sm-4"><h1>This is how it works 1</h1><p>fjdkalf;hdfhdka;fhdk;afhd</p></div>
-     </div>
-
   </div>
+
+  <!--<div id="summary" class="container-fluid">-->
+      <!--<div class="row">-->
+          <!--<div class="col-md-12">-->
+              <!--<p id="reifyLogo">REIFY-->
+                  <!--&lt;!&ndash;<img id="lineSpec" src="assets/img/lineMedium.png">&ndash;&gt;-->
+              <!--</p>-->
+              <!--<p id="tagLine">make your perfect fit a reality.</p>-->
+          <!--</div>-->
+      <!--</div>-->
+      <!--<div class="row">-->
+      <div id="jumbopic" class="jumbotron">
+          <div class="container">
+
+              <div class="row">
+
+                  <div class="col-md-12">
+                      <h1 id="reifyLogo">REIFY</h1>
+                      <p id="tagLine">make your perfect fit a reality.</p>
+                      <p class="lead">
+                          <a class="btn btn-default btn-lg" href="#">iOS</a>
+                          <a class="btn btn-default btn-lg" href="#">Android</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+          <div id="howItWorks" class="col-md-12 lead">
+              <p>How it Works</p>
+          </div>
+
+      </div>
+  <!--</div>-->
+
+    <div class="modal fade" id="textModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+
+             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">We'll text you the link!</h4> 
+             </div>
+
+             <div class="modal-body">
+                <form class="form">
+                    <div class="form-group">
+                         <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                         <input type="tel" name="form-control" id="mobilePhone" placeholder="Mobile Phone">
+                    </div>
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option>iOS</option>
+                        <option>Android</option>
+                      </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal"> Send me link</button>
+                </form>
+             </div>
+
+          </div>
+      </div>
+    </div>
+
+
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-4">
+         <b class="glyphicon glyphicon-tag"></b>
+           <h1>Boutique Partners</h1>
+           <p>Pick your favorite clothes from one of our partners to get them altered to get that perfect fit.  There they will take your body measurements and the alterations you want.</p></div>
+         <div class="col-sm-4">
+           <b class="glyphicon glyphicon-scissors"></b>
+           <h1>Get It Altered</h1><p>Once the clothes are ordered, we ship them to our Reify seamstress who will tailor the clothes to your measurements while you can see the progress of your order with your Reify closet dashboard</p></div>
+         <div class="col-sm-4">
+             <b class="glyphicon glyphicon-globe"></b>
+             <h1>Ship it to You</h1>
+             <p>After our seamstresses alter your clothes, they are sent straight to you! No charges are made until we confirm your items are altered correctly.</p>
+         </div>
+       </div>
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
