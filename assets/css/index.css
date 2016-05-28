@@ -30,7 +30,7 @@ body {
     font-size:3em;
     display: block;
     text-align: center;
-    color:#3a87ad;
+    color:#327b81;
 }
 
 .carousel-indicators {
@@ -83,4 +83,18 @@ body {
 
 #howItWorks {
     text-align: center;
+}
+
+.btn-default {
+    border-width: 1px;
+    border-color: inherit;
+    padding: 12px 22px;
+    background-color: transparent;
+    color:#327b81;
+}
+
+.btn-default:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
 }
