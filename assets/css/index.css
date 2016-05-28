@@ -18,6 +18,10 @@ body {
     background-color: #f4f4f4;
 }
 
+#partners {
+    text-align: center;
+}
+
 .container-fluid {
     max-width: 1000px;
 }
@@ -48,6 +52,7 @@ body {
 #deal-container {
     margin-top:70px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .glyphicon {
@@ -105,7 +110,6 @@ body {
 }
 
 .navbar-inverse {
-    /*background-color:#327b81;*/
     font-family: "Proxima Nova";
     background-color: white;
     border: none;
