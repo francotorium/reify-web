@@ -14,7 +14,7 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: #f4f4f4;
 }
 
@@ -26,8 +26,20 @@ body {
     text-align: center;
 }
 
+.categories {
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 2em;
+}
+
+#howItWorks {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Proxima Nova";
+}
+
 .glyphicon {
-    font-size:3em;
+    font-size:2.5em;
     display: block;
     text-align: center;
     color:#327b81;
@@ -79,10 +91,6 @@ body {
     background-color: white;
     border: none;
 
-}
-
-#howItWorks {
-    text-align: center;
 }
 
 .btn-default {
