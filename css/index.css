@@ -17,6 +17,22 @@
     padding: 0px;
 }
 
+
+html {
+    height: 100%;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: "Proxima Nova";
+    letter-spacing: 0px;
+}
+
+body {
+    background-image: url('../assets/light-gray.png');
+    height:100%;
+}
+
 #launchBox {
     left: 107px;
     bottom:80px;
@@ -79,17 +95,6 @@
     color:white;
     opacity: .5;
     font-family:"Proxima Nova";
-}
-
-body{
-    background-image: url('/assets/manHuge.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
 }
 
 #manual-signup-heading {
