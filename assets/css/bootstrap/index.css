@@ -1,0 +1,117 @@
+@import url(https://db.onlinewebfonts.com/c/0154950b1c393c2cdff9968ada35f3f6?family=TrumpGothicEastW01-Regular);
+@import url(https://db.onlinewebfonts.com/c/ac51ad8a36d5bab6da11d454bcd06561?family=Proxima+Nova);
+@font-face {
+    font-family: TrumpGothicEast;
+    src: url('../fonts/trump_gothic_east.ttf') format('opentype');
+}
+@font-face {font-family: "Proxima Nova";
+    src: url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.eot");
+    src: url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ac51ad8a36d5bab6da11d454bcd06561.svg#Proxima Nova") format("svg");
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/manHuge.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+
+html {
+    height: 100%;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: "Proxima Nova";
+    letter-spacing: 0px;
+}
+
+body {
+    background-image: url('../assets/light-gray.png');
+    height:100%;
+}
+
+#launchBox {
+    left: 107px;
+    bottom:80px;
+}
+
+#launchInfo {
+    letter-spacing: 8px;
+    text-align: left;
+    font-family: TrumpGothicEast;
+    line-height: 1em;
+    font-size: 1.5em;
+    margin-top: 8px;
+}
+
+#lineSpec {
+    position: relative;
+    top: 56px;
+    left:12px;
+}
+
+#tagLine {
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    top: -200px;
+    font-family: "Proxima Nova";
+    color:#327b81;
+    letter-spacing:6.17px;
+    right:58px;
+}
+
+#reifyLogo {
+    text-align: center;
+    font-size: 12.5em;
+    position: relative;
+    font-family: TrumpGothicEast;
+    color:#327b81;
+    letter-spacing:6.17px;
+    top: -119px;
+    right:25px;
+}
+
+#topBox {
+    background-color: white;
+    height: 115px;
+}
+
+#joinField {
+    background-color: transparent;
+    border: solid #327b81 1px;
+    width: 70%;
+    font-family: "Proxima Nova";
+}
+
+#joinButton {
+    border: none;
+    margin-top:2%;
+    background-color:#327b81;
+    color:white;
+    opacity: .5;
+    font-family:"Proxima Nova";
+}
+
+#manual-signup-heading {
+    font-size: 9.5em;
+    font-family: TrumpGothicEast;
+    color:#327b81;
+}
