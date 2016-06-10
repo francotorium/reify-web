@@ -33,6 +33,11 @@ body {
     height:100%;
 }
 
+.crossword-white-body {
+    background-image: url('../assets/light-gray.png');
+    height:100%;
+}
+
 #launchBox {
     left: 107px;
     bottom:80px;
