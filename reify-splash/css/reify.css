@@ -20,6 +20,10 @@ body {
     width: 100%;
     height: 100%;
 }
+/* Map of Boutiques */
+#boutique-partners {
+    margin-top:50px;
+}
 
 /* Partners Page Styling */
 
