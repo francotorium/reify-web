@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>REIFY</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="body-landing">
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-xs" href="#">REIFY</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-links" href="#">Orders</a></li>
+            <li class="active"><a class="nav-links" href="#">Account</a></li>
+            <li><a class="nav-links" href="#">Logout</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+
+  
+<div id="container-orders" class="container">    
+    <h1>Orders</h1>
+
+    <div class="container">
+      <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a data-toggle="pill" href="#tab-pane-new-order">New Order</a></li>
+          <li><a data-toggle="pill" href="#tab-pane-history">History</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-offset-1 col-md-9">
+        <div class="container">
+          <div class="tab-content">
+            <div id="tab-pane-new-order" class="tab-pane active">
+
+              <h3>Body Measurements</h3>
+              <p>Enter your customer's body measurements. Click on the icon next to each label to view details on how to obtain that particular measuremnt.</p>
+            
+              <div class="row">
+                <div class="col-md-4">
+                  <form role="form" method="POST" action="#">
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label class="control-label" for="height">
+                          Neck:
+                          <a href="#" data-toggle="meas-info" data-trigger="click" data-content="Not you? Shoot us an email to info@reify.fit and we'll get it sorted out!">
+                              <span class="glyphicon glyphicon-question-sign"></span>
+                          </a>
+                    </label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="neck" name="neck" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Shoulders:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="shoulders" name="shoulders" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Sleeve:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="sleeve" name="sleeve" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Chest:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="chest" name="chest" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Torso:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="torso" name="torso" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Waist:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="waist" name="waist" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Outseam:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="outseam" name="outseam" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Inseam:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="inseam" name="inseam" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Thigh:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="thigh" name="thigh" placeholder="Inches">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="height">Height:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="height" name="height" placeholder="Inches">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="wieght">Weight:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="weight" name="weight"  placeholder="Lbs">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-3">
+                        <label for="gender">Gender:</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" id="gender" name="gender" placeholder="M/F/T">
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+
+                <div class="col-md-8">
+                  <h4>Instructions</h4>
+                  <p>blah blah blah</p>
+                  <p>blah blah blah</p>
+                  <p>blah blah blah</p>
+                </div>
+
+              </div>
+            </div>
+            
+            <div id="tab-pane-history" class="tab-pane">
+              <h3>Menu 1</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+		
+</div>
+
+
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <h4><strong>REIFY</strong>
+                  </h4>
+                  <p>4th Street<br>San Francisco, CA 94014</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">support@reify.fit</a>
+                      </li>
+                  </ul>
+                  <br>
+                  <hr class="small">
+                  <p class="text-muted">Copyright &copy; REIFY 2016</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="meas-info"]').popover();
+      });
+  </script>
+  </body>
+</html>
