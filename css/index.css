@@ -8,6 +8,14 @@ body, {
     height: 100%;
 }
 
+#callout-headline {
+    top:10px;
+    margin-bottom:40px;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
 #partition {
     border: 1px solid #327b81;
 }
@@ -55,6 +63,12 @@ body, {
     font-family: "freight-sans-pro",sans-serif;
     font-style: normal;
     font-weight: 600;
+}
+.reify-info-item p {
+    color:#327b81;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 #reify-info-hr {
@@ -110,6 +124,18 @@ body, {
     top:60px;
     width:200px;
     height:50px;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:1.325em;
+}
+#signup-callout {
+    top:60px;
+    width:200px;
+    height:50px;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .btn-dark {
@@ -153,7 +179,13 @@ body, {
 }
 
 /* Footer */
+#reify-footer {
+    font-family: 'Prata', serif;
+}
 
 footer {
     padding: 50px 0;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
