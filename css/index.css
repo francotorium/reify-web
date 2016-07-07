@@ -8,6 +8,10 @@ body, {
     height: 100%;
 }
 
+#partition {
+    border: 1px solid #327b81;
+}
+
 .jumbotron {
     text-align: center;
 }
@@ -73,10 +77,9 @@ body, {
     position: relative;
     font-family: "freight-sans-pro",sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     color:white;
     letter-spacing:2.17px;
-    /*top:35px;*/
 }
 
 /** Navbar **/
@@ -84,6 +87,7 @@ body, {
     font-family: "freight-sans-pro",sans-serif;
     font-style: normal;
     font-weight: 600;
+    color:#00BD7F;
 }
 .navbar-inverse .navbar-brand{
  font-family: 'Prata', serif;
@@ -102,11 +106,18 @@ body, {
 }
 
 /* Custom Button Styles */
+#signup {
+    top:60px;
+    width:200px;
+    height:50px;
+}
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,189,127,0.9);
+    border-radius: 10px;
+
 }
 
 .btn-dark:hover,
